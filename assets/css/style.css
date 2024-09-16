@@ -1,0 +1,269 @@
+:root
+{
+    --primary-color:var(rgb(47, 47, 254));
+    --secondary-color:var(rgb(0, 208, 255));
+    --light-color:var(white);
+    --dark-color:var(black);
+}
+@font-face
+{
+    font-family: "tajawal";
+    src: url(../fonts/Tajawal-Bold.ttf);
+
+}
+@font-face
+{
+    font-family: "tajawal";
+    src: url(../fonts/Tajawal-Medium.ttf);
+
+}
+@font-face
+{
+    font-family: "tajawal";
+    src: url(../fonts/Tajawal-Regular.ttf);
+
+}
+a
+{
+    text-decoration: none;
+    color: var(--dark-color);
+    opacity: 90%;
+}
+.navgate
+{
+    font-weight: 600;
+    align-items: center;
+    align-content: center;
+   justify-content: space-between;
+   display: flex;
+   box-sizing: border-box;
+   margin:0px 20px;
+   z-index: 99;
+   font-family: tajawal;
+}
+.navgate  .navbar li 
+{
+    
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+
+}
+.navgate .navbar li a:hover
+{
+    color: aqua;
+}
+
+.navgate .bottun
+{
+    background-color: rgba(0, 187, 255, 0.547);
+    width:80px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 3px;
+ 
+
+}
+.header
+{
+    width:100%;
+    background-image: url(../images/intro.png);
+    background-size: cover;
+    height: 400px;
+}
+.container
+{
+    width: 90%;
+    margin: 30px 30px;
+    margin-right: 100px;
+    font-family: tajawal;
+    
+}
+.header .container 
+{
+    color:white;
+    font-weight: 900;
+    font-size: larger;
+    align-items: center;
+    font-family: tajawal;
+ 
+ 
+} 
+.header .container h1
+{
+    margin: 30px 0px;
+    font-family: tajawal;
+}
+.header .container p
+{
+    font-size: x-large;
+    font-weight: 900;
+    font-family: tajawal;
+}
+.project .container p
+{
+    opacity: 70%;
+    width: 50%;
+    font-family: tajawal;
+}
+.project .contain
+{
+    gap:30px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    justify-content: flex-start;
+   align-content: center;
+}    
+.project .contain .box
+{
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    width:20%;
+    margin:10px 0px;
+  
+}
+.project .contain .box .img
+{
+    width: 100%;
+}
+.project .contain .box .cont
+{
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.project .contain .box .more
+{
+    align-items: center;
+   display: flex;
+   
+}
+
+.contact .container .for
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: space-between;
+   
+
+}
+.contact .container .for img
+{
+    margin-left: 60px;
+
+}
+.contact .container .for .form
+{
+    font-weight: 600;
+    align-content: center;
+    align-items: center;
+    font-family: tajawal;
+    
+
+}
+.contact .container .for .form label
+{
+
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+    
+}
+.contact .container .for .form input
+{
+    height: 30px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+}
+.contact .container .for .form .name
+{
+    
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.contact .container .for .form .mail
+{
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+
+.contact .container .for .form .massege input
+{
+    width: 300px;
+    height: 80px;
+}
+.contact .container .for .form input .massege 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .container .form .bottun
+{
+     background-color: blue;
+     color: white;
+     font-weight: 600;
+     width: 150px;
+     height: 30px;
+     align-content: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 100px;
+     border-radius: 3px;
+
+}
+.contact .container .head
+{
+    font-size: larger;
+    font-weight: 900;
+    font-family: tajawal;
+}
+footer
+{
+     background-color: rgba(47, 0, 255, 0.711);
+     color: white;
+     display: flex;
+     flex-direction: row;
+
+}
+footer .container img
+{
+    margin-top: 20px;
+}
+footer .container p
+{
+    width:30%;
+    font-size: larger;
+    font-family: tajawal;
+
+}
+footer .container .foot
+{
+    justify-content: space-between;
+    display: flex;
+}
+footer .container .foot .mail .mai
+{
+  
+    align-items: center;
+}
+footer .container .law
+{
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .law .span
+{
+   margin-top: 30px;
+}
